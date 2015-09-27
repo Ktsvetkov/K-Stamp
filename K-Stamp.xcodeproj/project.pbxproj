@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D0177F51BA3107B009C17D2 /* 3baroptions.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D0177F41BA3107B009C17D2 /* 3baroptions.png */; };
+		4D0177F71BA310BD009C17D2 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D0177F61BA310BD009C17D2 /* GoogleMobileAds.framework */; };
+		4D2D11131BB8950E00D6B760 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4D2D11121BB8950E00D6B760 /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		4D2D11151BB8951F00D6B760 /* KStampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2D11141BB8951F00D6B760 /* KStampTests.m */; settings = {ASSET_TAGS = (); }; };
+		4D2FF20F1B611F1D004E07F7 /* ExperimentalCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FF20E1B611F1D004E07F7 /* ExperimentalCode.m */; };
+		4D2FF2151B61A601004E07F7 /* JsonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FF2141B61A601004E07F7 /* JsonHandler.m */; };
+		4D2FF2181B62937C004E07F7 /* TimeStamp.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FF2171B62937C004E07F7 /* TimeStamp.m */; };
+		4D2FF21B1B6406B7004E07F7 /* WeekOfStamps.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FF21A1B6406B7004E07F7 /* WeekOfStamps.m */; };
+		4D2FF2201B644CEC004E07F7 /* arrowLeftBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF21C1B644CEC004E07F7 /* arrowLeftBig.png */; };
+		4D2FF2211B644CEC004E07F7 /* arrowLeftSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF21D1B644CEC004E07F7 /* arrowLeftSmall.png */; };
+		4D2FF2221B644CEC004E07F7 /* arrowRightBig.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF21E1B644CEC004E07F7 /* arrowRightBig.png */; };
+		4D2FF2231B644CEC004E07F7 /* arrowRightSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D2FF21F1B644CEC004E07F7 /* arrowRightSmall.png */; };
+		4D45101C1B4D6CAE00C355EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45101B1B4D6CAE00C355EF /* main.m */; };
+		4D45101F1B4D6CAE00C355EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45101E1B4D6CAE00C355EF /* AppDelegate.m */; };
+		4D4510271B4D6CAE00C355EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D4510261B4D6CAE00C355EF /* Images.xcassets */; };
+		4D45102A1B4D6CAE00C355EF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4510281B4D6CAE00C355EF /* LaunchScreen.xib */; };
+		4D4510471B4D6DE100C355EF /* AuthenticationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D4510451B4D6DE100C355EF /* AuthenticationViewController.m */; };
+		4D4510481B4D6DE100C355EF /* AuthenticationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4510461B4D6DE100C355EF /* AuthenticationViewController.xib */; };
+		4D5C13131BB8A51500344B80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D5C13121BB8A51500344B80 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		4D6346F21B500EBA003DC7E3 /* StampsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6346F01B500EBA003DC7E3 /* StampsViewController.m */; };
+		4D6346F31B500EBA003DC7E3 /* StampsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D6346F11B500EBA003DC7E3 /* StampsViewController.xib */; };
+		4D6346F51B53F3AD003DC7E3 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6346F41B53F3AD003DC7E3 /* iAd.framework */; };
+		4DAF37E61B5A832000ED8391 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37E51B5A832000ED8391 /* AdSupport.framework */; };
+		4DAF37E81B5A832A00ED8391 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37E71B5A832A00ED8391 /* AudioToolbox.framework */; };
+		4DAF37EA1B5A833600ED8391 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37E91B5A833600ED8391 /* AVFoundation.framework */; };
+		4DAF37EC1B5A834000ED8391 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37EB1B5A834000ED8391 /* CoreGraphics.framework */; };
+		4DAF37EE1B5A834B00ED8391 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37ED1B5A834B00ED8391 /* CoreMedia.framework */; };
+		4DAF37F01B5A835700ED8391 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37EF1B5A835700ED8391 /* CoreTelephony.framework */; };
+		4DAF37F21B5A836000ED8391 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37F11B5A836000ED8391 /* EventKit.framework */; };
+		4DAF37F41B5A836800ED8391 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37F31B5A836700ED8391 /* EventKitUI.framework */; };
+		4DAF37F61B5A837100ED8391 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37F51B5A837100ED8391 /* MessageUI.framework */; };
+		4DAF37F81B5A837A00ED8391 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37F71B5A837A00ED8391 /* StoreKit.framework */; };
+		4DAF37FA1B5A838300ED8391 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DAF37F91B5A838200ED8391 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D4510301B4D6CAE00C355EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D45100E1B4D6CAE00C355EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D4510151B4D6CAE00C355EF;
+			remoteInfo = "ATG Kronos";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D0177F41BA3107B009C17D2 /* 3baroptions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3baroptions.png; sourceTree = "<group>"; };
+		4D0177F61BA310BD009C17D2 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		4D2D11121BB8950E00D6B760 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "K-Stamp Tests/Info.plist"; sourceTree = SOURCE_ROOT; };
+		4D2D11141BB8951F00D6B760 /* KStampTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KStampTests.m; path = "K-Stamp Tests/KStampTests.m"; sourceTree = SOURCE_ROOT; };
+		4D2FF20E1B611F1D004E07F7 /* ExperimentalCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExperimentalCode.m; sourceTree = "<group>"; };
+		4D2FF2131B61A601004E07F7 /* JsonHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JsonHandler.h; sourceTree = "<group>"; };
+		4D2FF2141B61A601004E07F7 /* JsonHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JsonHandler.m; sourceTree = "<group>"; };
+		4D2FF2161B62937C004E07F7 /* TimeStamp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeStamp.h; sourceTree = "<group>"; };
+		4D2FF2171B62937C004E07F7 /* TimeStamp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeStamp.m; sourceTree = "<group>"; };
+		4D2FF2191B6406B7004E07F7 /* WeekOfStamps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeekOfStamps.h; sourceTree = "<group>"; };
+		4D2FF21A1B6406B7004E07F7 /* WeekOfStamps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeekOfStamps.m; sourceTree = "<group>"; };
+		4D2FF21C1B644CEC004E07F7 /* arrowLeftBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeftBig.png; sourceTree = "<group>"; };
+		4D2FF21D1B644CEC004E07F7 /* arrowLeftSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeftSmall.png; sourceTree = "<group>"; };
+		4D2FF21E1B644CEC004E07F7 /* arrowRightBig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRightBig.png; sourceTree = "<group>"; };
+		4D2FF21F1B644CEC004E07F7 /* arrowRightSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRightSmall.png; sourceTree = "<group>"; };
+		4D4510161B4D6CAE00C355EF /* K-Stamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-Stamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D45101A1B4D6CAE00C355EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D45101B1B4D6CAE00C355EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D45101D1B4D6CAE00C355EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D45101E1B4D6CAE00C355EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D4510261B4D6CAE00C355EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D4510291B4D6CAE00C355EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4D45102F1B4D6CAE00C355EF /* K-StampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "K-StampTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D4510441B4D6DE100C355EF /* AuthenticationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthenticationViewController.h; sourceTree = "<group>"; };
+		4D4510451B4D6DE100C355EF /* AuthenticationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthenticationViewController.m; sourceTree = "<group>"; };
+		4D4510461B4D6DE100C355EF /* AuthenticationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthenticationViewController.xib; sourceTree = "<group>"; };
+		4D5C13121BB8A51500344B80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D6346EF1B500EBA003DC7E3 /* StampsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StampsViewController.h; sourceTree = "<group>"; };
+		4D6346F01B500EBA003DC7E3 /* StampsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StampsViewController.m; sourceTree = "<group>"; };
+		4D6346F11B500EBA003DC7E3 /* StampsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StampsViewController.xib; sourceTree = "<group>"; };
+		4D6346F41B53F3AD003DC7E3 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		4DAF37E51B5A832000ED8391 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		4DAF37E71B5A832A00ED8391 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4DAF37E91B5A833600ED8391 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4DAF37EB1B5A834000ED8391 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4DAF37ED1B5A834B00ED8391 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4DAF37EF1B5A835700ED8391 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		4DAF37F11B5A836000ED8391 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		4DAF37F31B5A836700ED8391 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		4DAF37F51B5A837100ED8391 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4DAF37F71B5A837A00ED8391 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		4DAF37F91B5A838200ED8391 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D4510131B4D6CAE00C355EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAF37FA1B5A838300ED8391 /* SystemConfiguration.framework in Frameworks */,
+				4DAF37F81B5A837A00ED8391 /* StoreKit.framework in Frameworks */,
+				4DAF37F61B5A837100ED8391 /* MessageUI.framework in Frameworks */,
+				4DAF37F41B5A836800ED8391 /* EventKitUI.framework in Frameworks */,
+				4DAF37F21B5A836000ED8391 /* EventKit.framework in Frameworks */,
+				4DAF37F01B5A835700ED8391 /* CoreTelephony.framework in Frameworks */,
+				4DAF37EE1B5A834B00ED8391 /* CoreMedia.framework in Frameworks */,
+				4DAF37EC1B5A834000ED8391 /* CoreGraphics.framework in Frameworks */,
+				4DAF37EA1B5A833600ED8391 /* AVFoundation.framework in Frameworks */,
+				4DAF37E81B5A832A00ED8391 /* AudioToolbox.framework in Frameworks */,
+				4DAF37E61B5A832000ED8391 /* AdSupport.framework in Frameworks */,
+				4D0177F71BA310BD009C17D2 /* GoogleMobileAds.framework in Frameworks */,
+				4D6346F51B53F3AD003DC7E3 /* iAd.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45102C1B4D6CAE00C355EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D45100D1B4D6CAE00C355EF = {
+			isa = PBXGroup;
+			children = (
+				4D5C13121BB8A51500344B80 /* Default-568h@2x.png */,
+				4DAF37F91B5A838200ED8391 /* SystemConfiguration.framework */,
+				4DAF37F71B5A837A00ED8391 /* StoreKit.framework */,
+				4DAF37F51B5A837100ED8391 /* MessageUI.framework */,
+				4DAF37F31B5A836700ED8391 /* EventKitUI.framework */,
+				4DAF37F11B5A836000ED8391 /* EventKit.framework */,
+				4DAF37EF1B5A835700ED8391 /* CoreTelephony.framework */,
+				4DAF37ED1B5A834B00ED8391 /* CoreMedia.framework */,
+				4DAF37EB1B5A834000ED8391 /* CoreGraphics.framework */,
+				4DAF37E91B5A833600ED8391 /* AVFoundation.framework */,
+				4DAF37E71B5A832A00ED8391 /* AudioToolbox.framework */,
+				4DAF37E51B5A832000ED8391 /* AdSupport.framework */,
+				4D0177F61BA310BD009C17D2 /* GoogleMobileAds.framework */,
+				4D6346F41B53F3AD003DC7E3 /* iAd.framework */,
+				4D4510181B4D6CAE00C355EF /* ATG Kronos */,
+				4D4510321B4D6CAE00C355EF /* K-Stamp Tests */,
+				4D4510171B4D6CAE00C355EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D4510171B4D6CAE00C355EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D4510161B4D6CAE00C355EF /* K-Stamp.app */,
+				4D45102F1B4D6CAE00C355EF /* K-StampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D4510181B4D6CAE00C355EF /* ATG Kronos */ = {
+			isa = PBXGroup;
+			children = (
+				4D45101D1B4D6CAE00C355EF /* AppDelegate.h */,
+				4D45101E1B4D6CAE00C355EF /* AppDelegate.m */,
+				4D2FF2131B61A601004E07F7 /* JsonHandler.h */,
+				4D2FF2141B61A601004E07F7 /* JsonHandler.m */,
+				4D2FF2161B62937C004E07F7 /* TimeStamp.h */,
+				4D2FF2171B62937C004E07F7 /* TimeStamp.m */,
+				4D2FF2191B6406B7004E07F7 /* WeekOfStamps.h */,
+				4D2FF21A1B6406B7004E07F7 /* WeekOfStamps.m */,
+				4D4510441B4D6DE100C355EF /* AuthenticationViewController.h */,
+				4D4510451B4D6DE100C355EF /* AuthenticationViewController.m */,
+				4D4510461B4D6DE100C355EF /* AuthenticationViewController.xib */,
+				4D6346EF1B500EBA003DC7E3 /* StampsViewController.h */,
+				4D6346F01B500EBA003DC7E3 /* StampsViewController.m */,
+				4D6346F11B500EBA003DC7E3 /* StampsViewController.xib */,
+				4D2FF20E1B611F1D004E07F7 /* ExperimentalCode.m */,
+				4D4510261B4D6CAE00C355EF /* Images.xcassets */,
+				4D4510281B4D6CAE00C355EF /* LaunchScreen.xib */,
+				4D4510191B4D6CAE00C355EF /* Supporting Files */,
+			);
+			path = "ATG Kronos";
+			sourceTree = "<group>";
+		};
+		4D4510191B4D6CAE00C355EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DAF37DE1B5979B400ED8391 /* Images */,
+				4D45101A1B4D6CAE00C355EF /* Info.plist */,
+				4D45101B1B4D6CAE00C355EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D4510321B4D6CAE00C355EF /* K-Stamp Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D11141BB8951F00D6B760 /* KStampTests.m */,
+				4D4510331B4D6CAE00C355EF /* Supporting Files */,
+			);
+			name = "K-Stamp Tests";
+			path = "ATG KronosTests";
+			sourceTree = "<group>";
+		};
+		4D4510331B4D6CAE00C355EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D2D11121BB8950E00D6B760 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DAF37DE1B5979B400ED8391 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4D0177F41BA3107B009C17D2 /* 3baroptions.png */,
+				4D2FF21C1B644CEC004E07F7 /* arrowLeftBig.png */,
+				4D2FF21D1B644CEC004E07F7 /* arrowLeftSmall.png */,
+				4D2FF21E1B644CEC004E07F7 /* arrowRightBig.png */,
+				4D2FF21F1B644CEC004E07F7 /* arrowRightSmall.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D4510151B4D6CAE00C355EF /* K-Stamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4510391B4D6CAE00C355EF /* Build configuration list for PBXNativeTarget "K-Stamp" */;
+			buildPhases = (
+				4D4510121B4D6CAE00C355EF /* Sources */,
+				4D4510131B4D6CAE00C355EF /* Frameworks */,
+				4D4510141B4D6CAE00C355EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "K-Stamp";
+			productName = "ATG Kronos";
+			productReference = 4D4510161B4D6CAE00C355EF /* K-Stamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D45102E1B4D6CAE00C355EF /* K-StampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D45103C1B4D6CAE00C355EF /* Build configuration list for PBXNativeTarget "K-StampTests" */;
+			buildPhases = (
+				4D45102B1B4D6CAE00C355EF /* Sources */,
+				4D45102C1B4D6CAE00C355EF /* Frameworks */,
+				4D45102D1B4D6CAE00C355EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D4510311B4D6CAE00C355EF /* PBXTargetDependency */,
+			);
+			name = "K-StampTests";
+			productName = "ATG KronosTests";
+			productReference = 4D45102F1B4D6CAE00C355EF /* K-StampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D45100E1B4D6CAE00C355EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Kametechs;
+				TargetAttributes = {
+					4D4510151B4D6CAE00C355EF = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = QMBN32V4F9;
+					};
+					4D45102E1B4D6CAE00C355EF = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 4D4510151B4D6CAE00C355EF;
+					};
+				};
+			};
+			buildConfigurationList = 4D4510111B4D6CAE00C355EF /* Build configuration list for PBXProject "K-Stamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D45100D1B4D6CAE00C355EF;
+			productRefGroup = 4D4510171B4D6CAE00C355EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D4510151B4D6CAE00C355EF /* K-Stamp */,
+				4D45102E1B4D6CAE00C355EF /* K-StampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D4510141B4D6CAE00C355EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6346F31B500EBA003DC7E3 /* StampsViewController.xib in Resources */,
+				4D5C13131BB8A51500344B80 /* Default-568h@2x.png in Resources */,
+				4D2FF2211B644CEC004E07F7 /* arrowLeftSmall.png in Resources */,
+				4D4510481B4D6DE100C355EF /* AuthenticationViewController.xib in Resources */,
+				4D45102A1B4D6CAE00C355EF /* LaunchScreen.xib in Resources */,
+				4D4510271B4D6CAE00C355EF /* Images.xcassets in Resources */,
+				4D0177F51BA3107B009C17D2 /* 3baroptions.png in Resources */,
+				4D2FF2231B644CEC004E07F7 /* arrowRightSmall.png in Resources */,
+				4D2FF2201B644CEC004E07F7 /* arrowLeftBig.png in Resources */,
+				4D2D11131BB8950E00D6B760 /* Info.plist in Resources */,
+				4D2FF2221B644CEC004E07F7 /* arrowRightBig.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45102D1B4D6CAE00C355EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D4510121B4D6CAE00C355EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2FF2151B61A601004E07F7 /* JsonHandler.m in Sources */,
+				4D6346F21B500EBA003DC7E3 /* StampsViewController.m in Sources */,
+				4D2FF21B1B6406B7004E07F7 /* WeekOfStamps.m in Sources */,
+				4D45101F1B4D6CAE00C355EF /* AppDelegate.m in Sources */,
+				4D4510471B4D6DE100C355EF /* AuthenticationViewController.m in Sources */,
+				4D2FF20F1B611F1D004E07F7 /* ExperimentalCode.m in Sources */,
+				4D45101C1B4D6CAE00C355EF /* main.m in Sources */,
+				4D2FF2181B62937C004E07F7 /* TimeStamp.m in Sources */,
+				4D2D11151BB8951F00D6B760 /* KStampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D45102B1B4D6CAE00C355EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D4510311B4D6CAE00C355EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D4510151B4D6CAE00C355EF /* K-Stamp */;
+			targetProxy = 4D4510301B4D6CAE00C355EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D4510281B4D6CAE00C355EF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D4510291B4D6CAE00C355EF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D4510371B4D6CAE00C355EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D4510381B4D6CAE00C355EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Kamen Tsvetkov (P4963EZFUA)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D45103A1B4D6CAE00C355EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Kamenator/Downloads/googlemobileadssdkios/GoogleMobileAdsSdkiOS-7.3.1",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ATG Kronos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamtechs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "K-Stamp";
+			};
+			name = Debug;
+		};
+		4D45103B1B4D6CAE00C355EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Kamenator/Downloads/googlemobileadssdkios/GoogleMobileAdsSdkiOS-7.3.1",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ATG Kronos/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kamtechs.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "K-Stamp";
+			};
+			name = Release;
+		};
+		4D45103D1B4D6CAE00C355EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATG KronosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "K-StampTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATG Kronos.app/ATG Kronos";
+			};
+			name = Debug;
+		};
+		4D45103E1B4D6CAE00C355EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ATG KronosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "K-StampTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ATG Kronos.app/ATG Kronos";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D4510111B4D6CAE00C355EF /* Build configuration list for PBXProject "K-Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D4510371B4D6CAE00C355EF /* Debug */,
+				4D4510381B4D6CAE00C355EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4510391B4D6CAE00C355EF /* Build configuration list for PBXNativeTarget "K-Stamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45103A1B4D6CAE00C355EF /* Debug */,
+				4D45103B1B4D6CAE00C355EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D45103C1B4D6CAE00C355EF /* Build configuration list for PBXNativeTarget "K-StampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D45103D1B4D6CAE00C355EF /* Debug */,
+				4D45103E1B4D6CAE00C355EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D45100E1B4D6CAE00C355EF /* Project object */;
+}
